@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 50px;
+    
+background: #1C1C1C;
+}
+
+.container {
+
+width: 550px;
+height: 550px;
+left: 62px;
+top: 64px;
+
+background: #1F2937;
+margin-left: auto;
+margin-right: auto;
+border: white solid 5px;
+display: grid;
+grid-template-columns: 2fr;
+grid-template-rows: 1fr 2fr 1fr;
+grid-template-areas: 
+"head head head"
+"main main main"
+"piso piso piso2"
+"foot foot foot";
+}
+
+.text-box {
+   
+width: 354px;
+height: 80px;
+left: 52px;
+top: 118px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+grid-area: head;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+#boton {
+    
+
+width: 354px;
+height: 80px;
+left: 52px;
+top: 118px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: green;
+grid-area: main;
+}
+
+
+
+#numerobo {
+ width: 180px;
+height: 40px;
+left: 52px;
+
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: green;
+grid-area: piso;   
+    
+}
+
+
+.password {
+    
+  grid-area: foot; 
+}
+
+.pass1 {
+    color: whitesmoke;
+    border: greenyellow dotted 3px;
+    width: 100px;
+      margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+}
